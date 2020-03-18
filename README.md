@@ -1,2 +1,5 @@
 # hackathontechnicalanalysis
-Crimson Code 2020 project, still incomplete. We have to tie everything into our asset class.
+Crimson Code 2020 project, still incomplete. We have to tie everything into our asset class 
+and add the neural network.
+
+Description: The objective of this project is to create an automatic trading platform. We used Robinhood's stock API to download our historical stock data in order to back test our project and make sure that it works. All of the data was then added into a Pandas dataframe and stored into a seperate harddrive so we can have access to our information. We are looking to implement something that updates the historicals on 1 minute intervals so we can trade live. Then we found some technical analysis functions from TA-Lib and created other functions on our own. Using these functions they output a hard value that we used to decide if we buy or sell a stock. This was all planned and implemented in the 24 hours. We plan on continuing this project outside and using it to our own benefit. Things left to implement were a newscrapping ability that would search for certain keywords and events. We would then push all of this data through a neural network that would output either buy or sell. We will train the neural network with historicals.
